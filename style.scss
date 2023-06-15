@@ -1,1 +1,292 @@
 @import url(assets/style/_all.css);
+
+.container {
+  padding: 0 50px;
+}
+//first section start
+
+.wrapper {
+  position: relative;
+  padding: 100px 80px;
+  .main-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h1 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 43px;
+      line-height: 64px;
+      width: 85%;
+      color: #1b5a7d;
+    }
+    &--btns {
+      display: flex;
+      gap: 15px;
+      position: relative;
+      button {
+        width: 144px;
+        height: 61px;
+        background: #eda415;
+        border-radius: 20px;
+        color: #ffffff;
+        transition: 0.5s;
+        &:hover {
+          background-color: #1b5a7d;
+          transform: scale(1.09);
+        }
+      }
+
+      .btn {
+        border: 1px solid #1b5a7d;
+        color: #1b5a7d;
+        background-color: #ffffff;
+        transition: 0.5s;
+        &:hover {
+          background-color: #eda415;
+          transform: scale(1.09);
+          border: none;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  figure {
+    position: relative;
+    img {
+      width: 331px;
+      height: 356px;
+      position: relative;
+    }
+    .img-text {
+      position: absolute;
+      width: 120px;
+      height: 114.61px;
+      background: #eda415;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 674.157px;
+      right: -20px;
+      bottom: 50px;
+      span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21.573px;
+        line-height: 32px;
+        color: #ffffff;
+        width: 60%;
+        text-align: center;
+      }
+    }
+  }
+}
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 43% !important;
+  bottom: 180px !important;
+  span {
+    background-color: #eda415 !important;
+  }
+}
+
+//first section end
+
+//second section start
+
+#second {
+  width: 100%;
+  padding: 50px 0;
+  .various-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    .arrow {
+      background-color: #eaeaea;
+      width: 37px;
+      height: 37px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+    }
+    .card-third {
+      position: relative;
+    }
+    .arrow-right {
+      position: absolute;
+      right: -5%;
+    }
+    .card-first {
+      position: relative;
+    }
+    .arrow-left {
+      position: absolute;
+      left: -5%;
+    }
+    &--card {
+      width: 380.63px;
+      height: 147px;
+      border: 1px solid #a5a5a5;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 0 10px;
+
+      figure {
+        img {
+          width: 154px;
+          height: 94px;
+          object-fit: contain;
+        }
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        h3 {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 23.38px;
+          line-height: 35px;
+          color: #1b5a7d;
+        }
+      }
+    }
+  }
+}
+
+//second section end
+
+//third section start
+#third {
+  width: 100%;
+  
+  .products-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+    &--title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h2 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27.38px;
+        line-height: 41px;
+        color: #1b5a7d;
+      }
+      nav {
+        ul {
+          display: flex;
+          gap: 20px;
+          li {
+            width: 139px;
+            height: 45px;
+            border: 1px solid #b5b5b5;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+            &:hover {
+              border: 1px solid #1b5a7d;
+              transform: scale(1.02);
+            }
+            a {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16.38px;
+              line-height: 25px;
+              color: #1b5a7d;
+            }
+          }
+        }
+      }
+    }
+    &--all{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        &--box {
+            width: 308.83px;
+            height: 313.75px;
+            border: 0.983537px solid #b6b6b6;
+            border-radius: 19.6707px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+      
+            .pitcure {
+              display: flex;
+              justify-content: center;
+              img {
+                width: 187.86px;
+                height: 173.1px;
+              }
+              i {
+                width: 27.54px;
+                height: 27.54px;
+                background: #b3d4e5;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+              }
+            }
+            .content {
+              display: flex;
+              padding-left: 13px;
+              flex-direction: column;
+              gap: 15px;
+              h3 {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17.0939px;
+                line-height: 26px;
+                color: #003f62;
+              }
+              p {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 17.0939px;
+                line-height: 26px;
+                color: #4a4a4a;
+              }
+              img {
+                width: 100px;
+              }
+            }
+          }
+    }
+  }
+}
+
+//third section end
+
+//forth section start
+#forth{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/bgImage/pexels-nao-triponez-129208\ 1.png);
+}
